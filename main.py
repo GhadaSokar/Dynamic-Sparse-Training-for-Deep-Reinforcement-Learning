@@ -57,8 +57,8 @@ if __name__ == "__main__":
 
 	parser.add_argument("--save_model_period", default=1e5, type=int)  # Save model and optimizer parameters after the set number of iterations
 	parser.add_argument("--ann_noHidNeurons", default=256, type=int)  #
-	parser.add_argument("--ann_epsilonHid1", default=7, type=int)  #
-	parser.add_argument("--ann_epsilonHid2", default=20, type=int)  #
+	parser.add_argument("--ann_epsilonHid1", default=7, type=int)  #   lambda 1
+	parser.add_argument("--ann_epsilonHid2", default=64, type=int)  #  lambda 2
 	parser.add_argument("--ann_setZeta", default=0.05)  #
 	parser.add_argument("--ann_ascTopologyChangePeriod", default=1e3, type=int)  #
 	parser.add_argument("--ann_earlyStopTopologyChange", default=5e4, type=int)  #
