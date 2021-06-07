@@ -2,7 +2,7 @@
 
 This is the Pytorch implementation for the paper Dynamic Sparse Training for Deep Reinforcement Learning
 
-Our proposed Method is tested on [MuJoCo](http://www.mujoco.org/) continuous control tasks in [OpenAI gym](https://github.com/openai/gym).
+Our proposed method is tested on [MuJoCo](http://www.mujoco.org/) continuous control tasks in [OpenAI gym](https://github.com/openai/gym).
 
 # Requirements
 * Python 3.8
