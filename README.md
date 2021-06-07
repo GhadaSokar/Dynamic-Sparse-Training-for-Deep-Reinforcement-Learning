@@ -9,7 +9,7 @@ Method is tested on [MuJoCo](http://www.mujoco.org/) continuous control tasks in
 * [Mujoco-py](https://github.com/openai/mujoco-py) 
 * OpenAI gym
 
-#Usage
+# Usage
 
 For DS-TD3: Dynamic Sparse training of TD3 algorithm 
 ```
