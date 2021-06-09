@@ -12,7 +12,7 @@ The experimental results show the effectiveness of our training algorithm in boo
 * Python 3.8
 * PyTorch 1.5
 * [Mujoco-py](https://github.com/openai/mujoco-py) 
-* OpenAI gym
+* [OpenAI gym](https://github.com/openai/gym)
 
 # Usage
 
@@ -32,7 +32,7 @@ python main.py --env HalfCheetah-v3 --policy TD3
 ```
 
 # Results
-
+![](results.PNG)
 # Reference 
 
 If you use this code, please cite our paper:
