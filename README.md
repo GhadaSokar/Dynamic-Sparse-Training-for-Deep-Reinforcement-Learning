@@ -3,7 +3,7 @@
 This is the Pytorch implementation for the [Dynamic Sparse Training for Deep Reinforcement Learning](https://arxiv.org/pdf/2106.04217.pdf) paper.
 
 # Abstract
-In this paper, we introduce dynamic sparse training for Deep Reinforcement Learning (DRL). In particular, we propose a new training algorithm to train DRL agents using sparse neural networks from scratch and dynamically optimize the sparse topology jointly with the parameters. We integrated our proposed method with the [Twin Delayed Deep Deterministic policy gradient (TD3)](https://arxiv.org/abs/1802.09477) algorithm and introduce Dynamic Sparse training for TD3 (DS-TD3). 
+In this paper, we introduce dynamic sparse training for Deep Reinforcement Learning (DRL). In particular, we propose a new training algorithm to train DRL agents using sparse neural networks from scratch and dynamically optimize the sparse topology jointly with the parameters. We integrated our proposed method with the [Twin Delayed Deep Deterministic policy gradient (TD3)](https://arxiv.org/abs/1802.09477) algorithm and introduce "Dynamic Sparse training for TD3 (DS-TD3)". 
 
 Our proposed method is tested on [MuJoCo](http://www.mujoco.org/) continuous control tasks in [OpenAI gym](https://github.com/openai/gym).
 The experimental results show the effectiveness of our training algorithm in boosting the learning speed of the agent and achieving higher performance. Moreover, DS-TD3 offers a 50% reduction in the network size and floating-point operations (FLOPs).
