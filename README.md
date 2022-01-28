@@ -32,7 +32,7 @@ python main.py --env HalfCheetah-v3 --policy TD3
 ```
 
 # Results
-![](results.PNG)
+![](results.JPG)
 # Reference 
 
 If you use this code, please cite our paper:
